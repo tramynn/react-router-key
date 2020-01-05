@@ -9,8 +9,8 @@ export default (
   <Switch>
     <Route component={GuestLanding} exact path="/" />
     <Route component={Home} path="/home" />
-    <Route component={Profile} path="/profile" />
-    <Route component={Category} path="/category/:id" />
+    <Route component={Profile} path="/profile/:username" />
+    <Route component={Category} path="/category/:name" />
     <Route
       render={() => {
         return <h1>404 Page Not Found.</h1>;

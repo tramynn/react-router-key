@@ -15,11 +15,11 @@ class Home extends Component {
         </header>
         <main>
           <ul>
-            <Link to="/category/1">
-              <li>Category: 1</li>
+            <Link to="/category/React">
+              <li>Category: React</li>
             </Link>
-            <Link to="/category/2">
-              <li>Category: 2</li>
+            <Link to="/category/Node">
+              <li>Category: Node</li>
             </Link>
           </ul>
         </main>

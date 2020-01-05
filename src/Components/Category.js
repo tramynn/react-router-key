@@ -10,7 +10,7 @@ class Category extends Component {
     return (
       <div>
         <header>
-          <h1>Category: {this.props.match.params.id}</h1>
+          <h1>Category: {this.props.match.params.name}</h1>
         </header>
       </div>
     );
